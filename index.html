@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#3b101b">
+<title>Star Dupatta | Manufacturer & Wholesaler</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Georgia,"Times New Roman",serif;
+  background:#f8f2e9;
+  color:#2d171b;
+  line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+
+:root{
+  --maroon:#4b101d;
+  --dark:#24080f;
+  --gold:#c8a45d;
+  --cream:#f8f2e9;
+  --white:#fffdf9;
+  --text:#2d171b;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(36,8,15,.97);
+  border-bottom:1px solid rgba(200,164,93,.45);
+  box-shadow:0 4px 20px rgba(0,0,0,.18);
+}
+
+.nav{
+  max-width:1250px;
+  margin:auto;
+  min-height:76px;
+  padding:10px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.logo-wrap{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo{
+  width:54px;
+  height:54px;
+  object-fit:cover;
+  border-radius:50%;
+  border:2px solid var(--gold);
+}
+
+.brand{
+  color:#fff;
+  font-size:23px;
+  letter-spacing:2px;
+  font-weight:bold;
+}
+
+.brand-small{
+  display:block;
+  color:#dfc98e;
+  font-size:11px;
+  letter-spacing:2px;
+  margin-top:2px;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+nav a{
+  color:#fff;
+  font-size:14px;
+  transition:.25s;
+}
+
+nav a:hover{color:var(--gold)}
+
+.hero{
+  min-height:600px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:80px 20px;
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 20% 30%,rgba(200,164,93,.18),transparent 35%),
+    radial-gradient(circle at 80% 70%,rgba(116,25,45,.22),transparent 40%),
+    linear-gradient(135deg,#26080f,#531322,#2c0911);
+  color:#fff;
+}
+
+.hero:before{
+  content:"";
+  position:absolute;
+  inset:22px;
+  border:1px solid rgba(200,164,93,.35);
+  pointer-events:none;
+}
+
+.hero-content{
+  max-width:900px;
+  position:relative;
+  z-index:2;
+}
+
+.eyebrow{
+  color:#e2c77f;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  font-size:13px;
+  margin-bottom:15px;
+}
+
+.hero h1{
+  font-size:clamp(45px,8vw,88px);
+  letter-spacing:7px;
+  margin-bottom:12px;
+}
+
+.hero p{
+  color:#f2e5cc;
+  font-size:19px;
+  max-width:680px;
+  margin:0 auto 30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:13px 23px;
+  border-radius:30px;
+  margin:5px;
+  font-weight:bold;
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  transition:.25s;
+}
+
+.btn-gold{
+  background:var(--gold);
+  color:#26080f;
+}
+
+.btn-outline{
+  border:1px solid var(--gold);
+  color:#fff;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 22px rgba(0,0,0,.2);
+}
+
+.section{
+  max-width:1250px;
+  margin:auto;
+  padding:75px 22px;
+}
+
+.section-title{
+  text-align:center;
+  margin-bottom:42px;
+}
+
+.section-title .small{
+  color:#a17a35;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  font-size:12px;
+  font-family:Arial,sans-serif;
+}
+
+.section-title h2{
+  font-size:40px;
+  margin-top:5px;
+}
+
+.section-title p{
+  max-width:650px;
+  margin:10px auto 0;
+  color:#735f61;
+}
+
+.about{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.info-card{
+  background:var(--white);
+  border:1px solid #e3d2b3;
+  border-radius:18px;
+  padding:30px;
+  box-shadow:0 10px 30px rgba(70,35,20,.08);
+}
+
+.info-card h3{
+  color:var(--maroon);
+  margin-bottom:12px;
+  font-size:25px;
+}
+
+.info-card strong{color:var(--maroon)}
+
+.products{
+  background:#f2e8da;
+}
+
+.search-area{
+  max-width:650px;
+  margin:0 auto 30px;
+}
+
+.search{
+  width:100%;
+  padding:15px 20px;
+  border:1px solid #d5bd96;
+  border-radius:30px;
+  background:white;
+  outline:none;
+  font-size:15px;
+}
+
+.filters{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:9px;
+  margin-bottom:35px;
+}
+
+.filter{
+  border:1px solid #c8a45d;
+  background:transparent;
+  padding:9px 15px;
+  border-radius:22px;
+  cursor:pointer;
+  color:var(--maroon);
+}
+
+.filter.active,
+.filter:hover{
+  background:var(--maroon);
+  color:#fff;
+}
+
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:22px;
+}
+
+.product{
+  background:var(--white);
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid #e3d2b3;
+  box-shadow:0 8px 25px rgba(70,35,20,.08);
+  transition:.3s;
+}
+
+.product:hover{
+  transform:translateY(-5px);
+  box-shadow:0 15px 35px rgba(70,35,20,.14);
+}
+
+.product-img{
+  height:270px;
+  background:
+    radial-gradient(circle at center,#f5e7cf,#d7b97f 55%,#7b2638);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:25px;
+  color:#fff;
+  position:relative;
+}
+
+.product-img span{
+  background:rgba(36,8,15,.78);
+  padding:10px 15px;
+  border-radius:10px;
+  font-family:Arial,sans-serif;
+  font-size:12px;
+}
+
+.product-body{padding:20px}
+
+.product-body h3{
+  font-size:18px;
+  margin-bottom:8px;
+  color:var(--maroon);
+}
+
+.product-body p{
+  color:#76676a;
+  font-family:Arial,sans-serif;
+  font-size:13px;
+  min-height:43px;
+}
+
+.price{
+  color:#765b20;
+  font-weight:bold;
+  margin:14px 0;
+  font-family:Arial,sans-serif;
+}
+
+.actions{
+  display:flex;
+  gap:8px;
+}
+
+.action{
+  flex:1;
+  text-align:center;
+  padding:10px 6px;
+  border-radius:9px;
+  font-size:12px;
+  font-family:Arial,sans-serif;
+  font-weight:bold;
+}
+
+.flip{
+  background:var(--maroon);
+  color:white;
+}
+
+.share{
+  border:1px solid #c8a45d;
+  color:var(--maroon);
+}
+
+.more{
+  text-align:center;
+  margin-top:45px;
+}
+
+.reels{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:15px;
+}
+
+.reel{
+  min-height:260px;
+  background:linear-gradient(145deg,#250810,#69182d);
+  border:1px solid rgba(200,164,93,.55);
+  border-radius:16px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+  color:#fff;
+  transition:.3s;
+}
+
+.reel:hover{transform:translateY(-5px)}
+
+.reel-icon{
+  font-size:38px;
+  margin-bottom:15px;
+}
+
+.reel h3{
+  color:#e1c77e;
+  margin-bottom:8px;
+}
+
+.contact{
+  background:linear-gradient(135deg,#2a0911,#541424);
+  color:#fff;
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+}
+
+.contact-card{
+  border:1px solid rgba(200,164,93,.4);
+  border-radius:18px;
+  padding:27px;
+  background:rgba(255,255,255,.05);
+}
+
+.contact-card h3{
+  color:#dfc277;
+  margin-bottom:8px;
+}
+
+.contact-card p{
+  color:#eadfcf;
+  font-family:Arial,sans-serif;
+  font-size:14px;
+}
+
+.contact-card .btn{margin-left:0}
+
+.wholesale{
+  text-align:center;
+  margin-top:35px;
+  padding:45px 25px;
+  border:1px solid rgba(200,164,93,.5);
+  border-radius:20px;
+  background:rgba(255,255,255,.05);
+}
+
+.wholesale h2{
+  color:#e1c77e;
+  margin-bottom:10px;
+}
+
+.wholesale p{
+  color:#eadfcf;
+  margin-bottom:18px;
+}
+
+footer{
+  background:#19050a;
+  color:#bfae91;
+  text-align:center;
+  padding:35px 20px;
+  font-family:Arial,sans-serif;
+  font-size:13px;
+}
+
+.footer-brand{
+  color:#e0c47c;
+  font-family:Georgia,serif;
+  font-size:24px;
+  letter-spacing:3px;
+  margin-bottom:8px;
+}
+
+@media(max-width:1050px){
+  .product-grid{grid-template-columns:repeat(3,1fr)}
+  .reels{grid-template-columns:repeat(3,1fr)}
+}
+
+@media(max-width:760px){
+  .nav{
+    flex-direction:column;
+    padding:12px;
+  }
+
+  nav{gap:12px}
+
+  .hero{min-height:520px}
+
+  .about,
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+
+  .product-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+  }
+
+  .product-img{height:220px}
+
+  .reels{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .section{padding:55px 15px}
+}
+
+@media(max-width:480px){
+  .product-grid{grid-template-columns:1fr}
+
+  .reels{grid-template-columns:1fr}
+
+  .hero h1{
+    letter-spacing:3px;
+  }
+
+  .hero p{font-size:16px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+
+    <a href="#home" class="logo-wrap">
+      <img
+        class="logo"
+        src="https://i.ibb.co/zTkdzWYV/Screenshot-20260829-231338-Instagram.jpg"
+        alt="Star Dupatta Logo"
+      >
+      <div>
+        <div class="brand">STAR DUPATTA</div>
+        <span class="brand-small">MANUFACTURER & WHOLESALER</span>
+      </div>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Collection</a>
+      <a href="#reels">Reels</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">Surat • Gujarat</div>
+
+    <h1>STAR DUPATTA</h1>
+
+    <p>
+      Premium Dupatta Manufacturer & Wholesaler
+      from Surat, Gujarat.
+    </p>
+
+    <a href="#products" class="btn btn-gold">
+      Explore Collection
+    </a>
+
+    <a
+      href="https://wa.me/919898662215?text=Hello%20Star%20Dupatta%2C%20I%20am%20interested%20in%20wholesale%20dupattas."
+      class="btn btn-outline"
+      target="_blank"
+    >
+      Wholesale Enquiry
+    </a>
+  </div>
+</section>
+
+
+<section class="section" id="about">
+
+  <div class="section-title">
+    <div class="small">About Star Dupatta</div>
+    <h2>Crafted for Wholesale</h2>
+    <p>
+      A dedicated wholesale-focused collection of dupattas
+      from Star Dupatta, Surat.
+    </p>
+  </div>
+
+  <div class="about">
+
+    <div class="info-card">
+      <h3>Manufacturer & Wholesaler</h3>
+      <p>
+        Star Dupatta is focused on supplying dupattas for
+        wholesale buyers. For bulk requirements, contact us
+        directly through WhatsApp.
+      </p>
+    </div>
+
+    <div class="info-card">
+      <h3>Owner</h3>
+      <p>
+        <strong>Naresh Dewasi</strong><br>
+        Star Dupatta<br>
+        Surat, Gujarat, India
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="products" id="products">
+
+  <div class="section">
+
+    <div class="section-title">
+      <div class="small">Our Collection</div>
+      <h2>Dupatta Collection</h2>
+      <p>
+        Browse our selected products. Retail purchases are
+        available through Flipkart.
+      </p>
+    </div>
+
+    <div class="search-area">
+      <input
+        class="search"
+        id="search"
+        type="search"
+        placeholder="Search dupatta..."
+        oninput="filterProducts()"
+      >
+    </div>
+
+    <div class="filters">
+      <button class="filter active" onclick="setFilter('all',this)">All</button>
+      <button class="filter" onclick="setFilter('silk',this)">Silk Blend</button>
+      <button class="filter" onclick="setFilter('chiffon',this)">Chiffon</button>
+      <button class="filter" onclick="setFilter('georgette',this)">Georgette</button>
+      <button class="filter" onclick="setFilter('embroidered',this)">Embroidered</button>
+      <button class="filter" onclick="setFilter('embellished',this)">Embellished</button>
+      <button class="filter" onclick="setFilter('solid',this)">Solid</button>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+
+    <div class="more">
+      <a
+        href="https://www.flipkart.com/womens-dupattas/sd-lifestyle~brand/pr?sid=clo%2Cqd8%2Ct6b%2Cpjy&marketplace=FLIPKART&sort=popularity&p%5B%5D=facets.brand%255B%5D%3DSD%2BLIFESTYLE"
+        target="_blank"
+        class="btn btn-gold"
+      >
+        View More Products on Flipkart →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="reels">
+
+  <div class="section-title">
+    <div class="small">Social Collection</div>
+    <h2>Latest Reels</h2>
+    <p>See Star Dupatta's latest collection and updates on Instagram.</p>
+  </div>
+
+  <div class="reels">
+
+    <a class="reel" target="_blank"
+       href="https://www.instagram.com/reel/DZw_yzQIkz5/">
+      <div class="reel-icon">▶</div>
+      <h3>Reel 01</h3>
+      <p>Watch on Instagram</p>
+    </a>
+
+    <a class="reel" target="_blank"
+       href="https://www.instagram.com/reel/DZ9lg5iI7VW/">
+      <div class="reel-icon">▶</div>
+      <h3>Reel 02</h3>
+      <p>Watch on Instagram</p>
+    </a>
+
+    <a class="reel" target="_blank"
+       href="https://www.instagram.com/reel/DaCnSZhokdm/">
+      <div class="reel-icon">▶</div>
+      <h3>Reel 03</h3>
+      <p>Watch on Instagram</p>
+    </a>
+
+    <a class="reel" target="_blank"
+       href="https://www.instagram.com/reel/DaC8WlyoCGF/">
+      <div class="reel-icon">▶</div>
+      <h3>Reel 04</h3>
+      <p>Watch on Instagram</p>
+    </a>
+
+    <a class="reel" target="_blank"
+       href="https://www.instagram.com/reel/DcbSSscI4Z-/">
+      <div class="reel-icon">▶</div>
+      <h3>Reel 05</h3>
+      <p>Watch on Instagram</p>
+    </a>
+
+  </div>
+
+  <div style="text-align:center;margin-top:30px;">
+    <a
+      href="https://www.instagram.com/star_dupatta_surat/"
+      target="_blank"
+      class="btn btn-gold"
+    >
+      View All Reels on Instagram →
+    </a>
+  </div>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+  <div class="section">
+
+    <div class="section-title">
+      <div class="small" style="color:#dfc277;">Contact Star Dupatta</div>
+      <h2 style="color:white;">Let's Do Business</h2>
+      <p style="color:#eadfcf;">
+        Wholesale enquiries are welcome.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>📞 Call Us</h3>
+        <p>9898662215</p>
+        <a href="tel:+919898662215" class="btn btn-gold">
+          Call Now
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <h3>💬 WhatsApp</h3>
+        <p>Direct wholesale enquiries on WhatsApp.</p>
+        <a
+          href="https://wa.me/919898662215?text=Hello%20Star%20Dupatta%2C%20I%20am%20interested%20in%20wholesale%20dupattas."
+          target="_blank"
+          class="btn btn-gold"
+        >
+          WhatsApp Us
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <h3>📸 Instagram</h3>
+        <p>@star_dupatta_surat</p>
+        <a
+          href="https://www.instagram.com/star_dupatta_surat/"
+          target="_blank"
+          class="btn btn-gold"
+        >
+          Visit Instagram
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <h3>📍 Visit Our Shop</h3>
+        <p>
+          Shop No. 1040–41, Hariom Textile Market,<br>
+          Ring Road, Surat, Gujarat
+        </p>
+        <a
+          href="https://maps.app.goo.gl/jtV95q2mHbNtbrFj6?g_st=ac"
+          target="_blank"
+          class="btn btn-gold"
+        >
+          Get Directions
+        </a>
+      </div>
+
+    </div>
+
+
+    <div class="wholesale">
+
+      <h2>Wholesale Enquiries Only</h2>
+
+      <p>
+        Looking for dupattas in bulk?
+        Contact Star Dupatta directly on WhatsApp.
+      </p>
+
+      <a
+        href="https://wa.me/919898662215?text=Hello%20Star%20Dupatta%2C%20I%20am%20interested%20in%20wholesale%20dupattas."
+        target="_blank"
+        class="btn btn-gold"
+      >
+        💬 Send Wholesale Enquiry
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  <div class="footer-brand">STAR DUPATTA</div>
+
+  <p>Manufacturer & Wholesaler • Surat, Gujarat</p>
+
+  <p style="margin-top:10px;">
+    Owner: Naresh Dewasi
+  </p>
+
+  <p style="margin-top:15px;">
+    © 2026 Star Dupatta. All Rights Reserved.
+  </p>
+
+</footer>
+
+
+<script>
+
+const products = [
+
+{
+ name:"SD LIFESTYLE Silk Blend Embroidered Women Dupatta",
+ type:"silk embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-silk-blend-embroidered-women-dupatta/p/itm3fc6945164ed1?pid=DUPHMPGYBGUNRDJT&lid=LSTDUPHMPGYBGUNRDJTT0ZXSJ&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Silk Blend • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Jacquard Embroidered Women Dupatta",
+ type:"jacquard embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-jacquard-embroidered-women-dupatta/p/itmd03dd4b857654?pid=DUPHKTE5GJJXPYZM&lid=LSTDUPHKTE5GJJXPYZMOZVMYJ&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Jacquard • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Solid Women Dupatta",
+ type:"chiffon solid",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-solid-women-dupatta/p/itma3800caab5e64?pid=DUPHJGUGKZB3FHMG&lid=LSTDUPHJGUGKZB3FHMGYOK1WY&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Solid"
+},
+
+{
+ name:"SD LIFESTYLE Georgette Embroidered Women Dupatta",
+ type:"georgette embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-georgette-embroidered-women-dupatta/p/itm1c7324a1fb806?pid=DUPHJQZF4SFA7AJU&lid=LSTDUPHJQZF4SFA7AJU33KN9Y&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Georgette • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embroidered Women Dupatta",
+ type:"chiffon embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embroidered-women-dupatta/p/itme0567edb742ff?pid=DUPHJGT7TXG6GNKY&lid=LSTDUPHJGT7TXG6GNKY1EAVQU&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Silk Blend Embroidered Women Dupatta",
+ type:"silk embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-silk-blend-embroidered-women-dupatta/p/itmf3056d219b2b1?pid=DUPHMPGYYGDUEH8R&lid=LSTDUPHMPGYYGDUEH8RJPDTI4&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Silk Blend • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Silk Blend Embroidered Women Dupatta",
+ type:"silk embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-silk-blend-embroidered-women-dupatta/p/itm67cb13f4dfed7?pid=DUPHMPGYJFTVMKUM&lid=LSTDUPHMPGYJFTVMKUMCTW9AX&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Silk Blend • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Silk Blend Embroidered Women Dupatta",
+ type:"silk embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-silk-blend-embroidered-women-dupatta/p/itm17203e1b61720?pid=DUPHMPGYVJ8C8MPH&lid=LSTDUPHMPGYVJ8C8MPHT6V2NP&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Silk Blend • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Georgette Embellished Women Dupatta",
+ type:"georgette embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-georgette-embellished-women-dupatta/p/itm558fbd7bdb45d?pid=DUPHJQZFHJWEZK7B&lid=LSTDUPHJQZFHJWEZK7BO4AX5D&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Georgette • Embellished"
+},
+
+{
+ name:"SD LIFESTYLE Georgette Embellished Women Dupatta",
+ type:"georgette embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-georgette-embellished-women-dupatta/p/itm47c1679a69d55?pid=DUPHJQZFGPRNCDZY&lid=LSTDUPHJQZFGPRNCDZYCEQ5BD&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Georgette • Embellished"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Solid Women Dupatta",
+ type:"chiffon solid",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-solid-women-dupatta/p/itm17abc6ac86f74?pid=DUPHJGUG9W62YBCF&lid=LSTDUPHJGUG9W62YBCFQXRK8N&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Solid"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embellished Women Dupatta",
+ type:"chiffon embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embellished-women-dupatta/p/itm7e061c9791ec0?pid=DUPHJGUG5XH7EZHV&lid=LSTDUPHJGUG5XH7EZHVBYSYM7&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embellished"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embellished Women Dupatta",
+ type:"chiffon embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embellished-women-dupatta/p/itm90fd8f2108548?pid=DUPHJGUGBYY2NQ9W&lid=LSTDUPHJGUGBYY2NQ9WSHODH8&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embellished"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embroidered Women Dupatta",
+ type:"chiffon embroidered",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embroidered-women-dupatta/p/itm0d9e0800660c1?pid=DUPHJGUG7YGHGHZC&lid=LSTDUPHJGUG7YGHGHZC1XEMNF&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embroidered"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embellished Women Dupatta",
+ type:"chiffon embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embellished-women-dupatta/p/itm8248250e97d4f?pid=DUPHJGYQVAFSHUGZ&lid=LSTDUPHJGYQVAFSHUGZPDMPAS&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embellished"
+},
+
+{
+ name:"SD LIFESTYLE Chiffon Embellished Women Dupatta",
+ type:"chiffon embellished",
+ url:"https://dl.flipkart.com/dl/sd-lifestyle-chiffon-embellished-women-dupatta/p/itm3d3ebbfcb18ec?pid=DUPHJQMQYFWGF983&lid=LSTDUPHJQMQYFWGF983NGVGFL&marketplace=FLIPKART&q=sd+lifestyle+dupatta&store=clo%2Fqd8%2Ft6b%2Fpjy",
+ category:"Chiffon • Embellished"
+}
+
+];
+
+let currentFilter="all";
+
+function renderProducts(){
+
+  const grid=document.getElementById("productGrid");
+  const search=document.getElementById("search").value.toLowerCase();
+
+  const filtered=products.filter(p=>{
+
+    const matchesSearch=
+      p.name.toLowerCase().includes(search) ||
+      p.type.toLowerCase().includes(search) ||
+      p.category.toLowerCase().includes(search);
+
+    const matchesFilter=
+      currentFilter==="all" ||
+      p.type.includes(currentFilter);
+
+    return matchesSearch && matchesFilter;
+  });
+
+  grid.innerHTML="";
+
+  filtered.forEach((p,index)=>{
+
+    const card=document.createElement("article");
+    card.className="product";
+
+    card.innerHTML=`
+
+      <div class="product-img">
+        <span>
+          Product Photo<br>
+          <small>View product on Flipkart</small>
+        </span>
+      </div>
+
+      <div class="product-body">
+
+        <h3>${p.name}</h3>
+
+        <p>${p.category}</p>
+
+        <div class="price">
+          Price Available on Flipkart
+        </div>
+
+        <div class="actions">
+
+          <a
+            class="action flip"
+            href="${p.url}"
+            target="_blank"
+            rel="noopener"
+          >
+            Open in Flipkart
+          </a>
+
+          <button
+            class="action share"
+            onclick="shareProduct('${p.name.replace(/'/g,"\\'")}','${p.url}')"
+          >
+            Share
+          </button>
+
+        </div>
+
+      </div>
+    `;
+
+    grid.appendChild(card);
+
+  });
+
+}
+
+function setFilter(filter,button){
+
+  currentFilter=filter;
+
+  document.querySelectorAll(".filter")
+    .forEach(b=>b.classList.remove("active"));
+
+  button.classList.add("active");
+
+  renderProducts();
+}
+
+function filterProducts(){
+  renderProducts();
+}
+
+async function shareProduct(name,url){
+
+  if(navigator.share){
+
+    try{
+      await navigator.share({
+        title:name,
+        text:"Check this dupatta from Star Dupatta",
+        url:url
+      });
+    }catch(e){}
+
+  }else{
+
+    try{
+      await navigator.clipboard.writeText(url);
+      alert("Product link copied!");
+    }catch(e){
+      prompt("Copy product link:",url);
+    }
+
+  }
+
+}
+
+renderProducts();
+
+</script>
+
+</body>
+</html>
