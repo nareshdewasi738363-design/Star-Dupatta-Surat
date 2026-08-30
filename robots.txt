@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nareshdewasi738363-design.github.io/Star-Dupatta-Surat/sitemap.xml
